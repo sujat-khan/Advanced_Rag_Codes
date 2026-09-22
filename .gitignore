@@ -1,0 +1,107 @@
+# ==============================================================================
+# Git Ignore for Advanced RAG Codes
+# ==============================================================================
+
+# --- Python & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual Environments ---
+.venv/
+venv/
+myvenv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.pdm-python
+.pixi/
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# --- Jupyter Notebooks & IPython ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# --- RAG Vector Databases, Cache & Local Stores ---
+chroma_db/
+chromadb/
+*chroma*db*/
+qdrant_storage/
+storage/
+embedding_cache/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+
+# --- AI & Evaluation Framework Caches ---
+.deepeval/
+.ragas/
+
+# --- Distribution, Builds & Packaging ---
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Testing & Code Quality ---
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# --- Logs & Scratch / Temporary Files ---
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+tmp/
+output/
+temp/
+tempCodeRunnerFile.py
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

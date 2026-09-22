@@ -1,0 +1,80 @@
+# ==============================================================================
+# Base Requirements for Advanced RAG Codes
+# Consolidated from all modules (01_document_loaders through 15_rag_guardrails)
+# ==============================================================================
+
+# --- Core LangChain & LangGraph Ecosystem ---
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-experimental
+langchain-classic
+langgraph
+langgraph-checkpoint-sqlite
+langsmith
+
+# --- Model & Provider Integrations ---
+openai
+langchain-openai
+ollama
+langchain-ollama
+langchain-cohere
+
+# --- Vector Databases & Graph Stores ---
+chromadb
+qdrant-client
+langchain-chroma
+langchain-qdrant
+langchain-neo4j
+sqlite-vec
+
+# --- Document Loaders, Parsing & OCR ---
+pypdf
+pymupdf
+pdfplumber
+pdfminer.six
+pdf2image
+pytesseract
+rapidocr-onnxruntime
+unstructured[pdf,local-inference]
+langchain-unstructured
+beautifulsoup4
+lxml
+jq
+arxiv
+fpdf2
+
+# --- Retrievers, Rerankers & Search ---
+rank-bm25
+flashrank
+tavily-python
+lark
+
+# --- Multimodal & Deep Learning ---
+torch
+torchvision
+open_clip_torch
+Pillow
+
+# --- RAG Evaluation & Guardrails ---
+ragas
+deepeval
+guardrails-ai
+
+# --- Web App & UI (Paper Project) ---
+streamlit
+termcolor
+pyfiglet
+tabulate
+
+# --- Data Processing & Scientific Computing ---
+pandas
+numpy
+
+# --- Notebook & Environment Utilities ---
+ipykernel
+python-dotenv
+tiktoken
+pydantic
+protobuf
