@@ -105,3 +105,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+
+04_vector_stores/notebooks/chroma_langchain_db
